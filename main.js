@@ -22,11 +22,11 @@ var availablePixels; // 可使用畫素
 var beep = document.createElement('audio'),
 	gameover = document.createElement('audio');
 if (!!(beep.canPlayType && beep.canPlayType('audio/mpeg;').replace(/no/, ''))) {
-	beep.src = 'beep.mp3';
-	gameover.src = 'gameover.mp3';
+	beep.src = 'resources/beep.mp3';
+	gameover.src = 'resources/gameover.mp3';
 } else {
-	beep.src = 'beep.ogg';
-	gameover.src = 'gameover.ogg'
+	beep.src = 'resources/beep.ogg';
+	gameover.src = 'resources/gameover.ogg'
 }
 
 for (var i = 0; i < dispWidthInPixels; i++){
