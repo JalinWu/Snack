@@ -1,0 +1,43 @@
+body {
+    background-color: #ccc;
+}
+.disp {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    top: 36px;
+    border: 4px solid #666;
+    background-color: #00FA9A;
+}
+.msg {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+}
+.msg-a, .msg-b {
+    text-align: center;
+    color: #4169E1;
+    font-family: sans-serif;
+    font-weight: bold;
+    /*text-shadow: 4px 2px white;*/
+}
+.msg-a {
+    height: 140px;
+    line-height: 140px;
+    font-size: 70px;
+}
+.msg-b {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+.pixel {
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+.pixel.taken {
+    background-color: #4169E1;
+}
